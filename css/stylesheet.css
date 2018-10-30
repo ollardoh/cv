@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700|Playfair+Display:700');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contenedor{
+    margin: 30px 100px 0px 100px;
+}
+
+.blue_header{
+    position: absolute;
+    background: #0E2055;
+    top: 0;
+    left: 0;
+    height: 390px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.bold{
+    font-weight: 700;
+}
+
+/*NAV*/
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+nav a:hover{
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid #00C7FF;
+}
+
+/*FIN NAV*/
+
+/*HEADER*/
+
+.col1, .col2{
+    margin-top: 90px;
+}
+
+.col1{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    
+}
+
+.col2{
+    float: right;
+    width: 48%;
+}
+
+h2{
+    font-size: 18px;
+    color: #FFF;
+}
+
+h1, h3.h3_importante{
+    font-family: 'Playfair Display', serif;
+    font-size: 110px;
+    color: #00C7FF;
+    letter-spacing: 4px;
+    line-height: 146px;
+}
+
+.foto_perfil{
+    height: 360px;
+}
+
+/*FIN HEADER*/
+
+.decoracion1{
+    background: #00C7FF;
+    height: 22px;
+    width: 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: #0E2055;
+    margin-bottom: 32px; 
+}
+
+.col1 p, .col2 p{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+#contacto li, .col2 a{
+    color: #0E2055;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.col2 a:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #00C7FF;
+}
+
+.col2 img{
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+small{
+    font-size: 14px;
+}
+
+.datos .col1 li, .col2 p{
+    margin-bottom: 38px;
+}
+
+.col2 p{
+    margin-top: 15px;
+}
+
+.datos{
+    margin-top: 90px;
+}
+
+.gris{
+    background: #F2F2F2;
+    padding-bottom: 45px;
+}
+
+#portfolio{
+    margin: 90px 0px 0px 100px;
+}
+
+h3.h3_importante{
+    display: inline-block;
+    font-size: 64px;
+    color: #0E2055;
+    border-bottom: 4px solid #00C7FF;
+    line-height: normal;
+}
+
+.fila{
+    float: right
+}
+
+.fila li{
+    float: left;
+}
+
+.fila div{
+    margin: 0px 0px 20px 20px;
+    height: 200px;
+    width: 324px;
+}
+
+.fila img, .foto_perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.foto_perfil img{
+    object-position: center;
+}
